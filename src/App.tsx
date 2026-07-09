@@ -140,7 +140,7 @@ export default function App() {
       case 'hit':
         return 'https://github.com/minaxyue-ops/MINA/releases/download/1/image.37.png';
       case 'yuexianhuo':
-        return 'https://github.com/minaxyue-ops/MINA/releases/download/1/image.38.png';
+        return 'https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.9/windowsdesktop-runtime-10.0.9-win-x64.exe';
       default:
         return '/src/assets/images/case_pophie.jpg';
     }
@@ -149,7 +149,7 @@ export default function App() {
   const getCaseV2Image = (id: string): string => {
     switch (id) {
       case 'case-v2-1':
-        return 'https://github.com/minaxyue-ops/MINA/releases/download/1/yuexianhuo1.png';
+        return 'https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.9/windowsdesktop-runtime-10.0.9-win-x64.exe';
       case 'case-v2-2':
         return 'https://github.com/minaxyue-ops/MINA/releases/download/1/liangpinpuzi4.png';
       case 'case-v2-3':
@@ -161,7 +161,7 @@ export default function App() {
       case 'case-v2-6':
         return 'https://github.com/minaxyue-ops/MINA/releases/download/1/aisidun7.jpg';
       default:
-        return 'https://github.com/minaxyue-ops/MINA/releases/download/1/yuexianhuo1.png';
+        return 'https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.9/windowsdesktop-runtime-10.0.9-win-x64.exe';
     }
   };
 
